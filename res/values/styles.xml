@@ -2,4 +2,9 @@
 
     <style name="AppTheme" parent="android:Theme.Light" />
 
+    <!-- activity 的 style -->
+    <style name="activity_style">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
 </resources>

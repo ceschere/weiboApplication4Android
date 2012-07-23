@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">weiboApplication4Android</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="string_sina_weibo_setting_account">设置新浪微博帐号</string>
+    <string name="string_sina_tencet_setting_account">设置腾讯微博帐号</string>
 
 </resources>
