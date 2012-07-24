@@ -7,4 +7,9 @@
         <item name="android:windowNoTitle">true</item>
     </style>
 
+    <style name="layout_style">
+        
+        <item name="android:background">@color/color_gray</item>
+        
+    </style>
 </resources>

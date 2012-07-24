@@ -22,7 +22,7 @@ import android.widget.LinearLayout;
 public class MainPageActivity extends Activity implements OnClickListener, AnimationListener {
 
 	//	设置微博按钮
-	private Button setSinaWeiboButton;
+	private Button setSinaWeiboButton, setTencetWeiboButton;
 
 	private LinearLayout tipsAreaLayout;
 
@@ -42,7 +42,9 @@ public class MainPageActivity extends Activity implements OnClickListener, Anima
 		// TODO Auto-generated method stub
 
 		setSinaWeiboButton = (Button) this
-				.findViewById(R.id.button_set_weibo_button);
+				.findViewById(R.id.button_set_sina_weibo_button);
+		
+		setTencetWeiboButton = ( Button )this.findViewById(R.id.button_set_tencent_weibo_button);
 
 		tipsAreaLayout = (LinearLayout) this
 				.findViewById(R.id.tips_area_layout);
@@ -58,7 +60,7 @@ public class MainPageActivity extends Activity implements OnClickListener, Anima
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch (v.getId()) {
-		case R.id.button_set_weibo_button:
+		case R.id.button_set_sina_weibo_button:
 
 			setSinaWeiboLogic();
 
