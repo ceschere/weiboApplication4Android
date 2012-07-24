@@ -21,6 +21,7 @@ import android.widget.LinearLayout;
  */
 public class MainPageActivity extends Activity implements OnClickListener, AnimationListener {
 
+	//	设置微博按钮
 	private Button setSinaWeiboButton;
 
 	private LinearLayout tipsAreaLayout;
